@@ -1,0 +1,38 @@
+
+
+/*Navbar Offcanvas Query*/
+
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Height of navbar */
+    right: 0;
+    width: 0;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.78)!important;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+  }
+  .offcanvas-collapse.open {
+    width: 250px;
+    visibility: visible;
+  }
+
+  .navbar-brand img {
+    width: 12rem;
+  }
+
+  .navbar-nav li {
+    padding-right: 0rem; 
+  }
+  .navbar-nav .nav-link {
+    padding-left: 1rem !important;
+  }
+
+  .privacy-h1 {
+  /*font-size: 2rem;*/
+  }
+}
